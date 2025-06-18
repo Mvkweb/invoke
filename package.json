@@ -1,6 +1,11 @@
 {
   "name": "invoke",
   "private": true,
+  "scripts": {
+    "start": "bun run server",
+    "build:windows": "bun build --compile --minify --sourcemap --bytecode --target=bun-windows-x64-modern ./src/index.ts --outfile server-windows",
+    "build:linux": "bun build --compile --minify --sourcemap --bytecode --target=bun-linux-x64-modern ./src/index.ts --outfile server-linux"
+  },
   "devDependencies": {
     "@types/bun": "^1.2.16",
     "@types/node": "^24.0.2"
@@ -11,7 +16,7 @@
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "@sinclair/typebox": "^0.34.35",
-    "blessed": "^0.1.81",
     "elysia": "^1.3.4"
   }
 }
+
