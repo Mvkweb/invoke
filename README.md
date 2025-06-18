@@ -1,29 +1,41 @@
-# Invoke Project
+![Invoke_banner_wide](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4dface4fdc350ad704f19a8f8704cf3264c55682-2880x1620.png&w=3840&q=75)
 
-## About the Application 🚀
-This project serves as a robust and efficient backend application, built to provide high-performance API endpoints. It supports integration with various AI model APIs, including **Google Gemini API** and **OpenRouter API**, facilitating seamless communication and data processing. Its core purpose is to power intelligent applications by handling message routing and integrating with external services.
+# Invoke
 
-This project leverages [Bun](https://bun.sh/) to provide a fast and efficient application.
+This project serves as a robust and efficient backend application, built to provide high-performance API endpoints. Its core purpose is to power intelligent applications by handling message routing and integrating with external services.
 
-## Why Optimized?
-### Bun's Performance
-Bun is an all-in-one JavaScript runtime, bundler, transpiler, and package manager designed for speed. It offers significantly faster startup times and execution compared to Node.js, making this application highly optimized for performance.
+## ✨ Supported AI Providers
+Invoke is designed with flexibility in mind, supporting integration with a variety of leading AI model APIs:
 
-## Compiled Executable
-This application is compiled into a single, self-contained executable. This means you don't need to install Bun or any dependencies on the target machine to run the application, simplifying deployment and distribution.
+*   **Google Gemini API** 🚀: Access Google's powerful Gemini models for advanced generative AI capabilities.
+*   **OpenRouter API** 🔗: Connect to a wide range of models from different providers through the OpenRouter unified API.
+*   **And More!** 💡: The architecture is extensible, allowing for easy integration of additional AI service providers.
 
-## How to Compile
+## ❔ General Information
+
+### Why Optimized?
+This application leverages [Bun](https://bun.sh/) as its core runtime. Bun is an all-in-one JavaScript runtime, bundler, transpiler, and package manager designed for speed. It offers significantly faster startup times and execution compared to Node.js, making this application highly optimized for performance.
+
+### Compiled Executable
+Invoke is compiled into a single, self-contained executable. This means you don't need to install Bun or any dependencies on the target machine to run the application, simplifying deployment and distribution.
+
+## ⚡️ Getting Started
+
+> [!NOTE]
+> For detailed setup, environment variable configuration, and advanced usage, please refer to the `.env.example` file and any future comprehensive documentation.
+
+### How to Compile
 
 To compile the application for your target operating system:
 
-### For Windows
+#### For Windows
 Run the following command in your terminal:
 ```bash
 bun run build:windows
 ```
 This will generate `server-windows.exe` in your project root.
 
-### For Linux
+#### For Linux
 If you are on a Windows machine, it is recommended to use [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/) for compilation.
 
 1.  Open your WSL terminal (e.g., Ubuntu).
@@ -35,4 +47,6 @@ If you are on a Windows machine, it is recommended to use [Windows Subsystem for
     ```bash
     bun run build:linux
     ```
-> This will generate `myapp-linux` in your project root.
+This will generate `myapp-linux` in your project root. [^1]
+
+[^1]: The compiled executable is self-contained and does not require Bun to be installed on the target system to run.
