@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/BwuaUta.png" alt="Invoke_banner_wide" width="800" height="600">
+![Invoke_banner_wide](https://i.imgur.com/BwuaUta.png)
 
 # Invoke
 
