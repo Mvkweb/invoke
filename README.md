@@ -35,4 +35,4 @@ If you are on a Windows machine, it is recommended to use [Windows Subsystem for
     ```bash
     bun run build:linux
     ```
-This will generate `myapp-linux` in your project root.
+-# This will generate `myapp-linux` in your project root.
