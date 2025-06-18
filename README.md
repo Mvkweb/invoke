@@ -1,6 +1,6 @@
-![Invoke_banner_wide](https://i.imgur.com/BwuaUta.png)
+<img src="https://i.imgur.com/BwuaUta.png" alt="Invoke_banner_wide" width="800" height="auto">
 
-# 🪄🕯️Invoke
+# Invoke
 
 This project serves as a robust and efficient backend application, built to provide high-performance API endpoints. Its core purpose is to power intelligent applications by handling message routing and integrating with external services.
 
