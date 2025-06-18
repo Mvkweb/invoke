@@ -1,4 +1,4 @@
-![Invoke_banner_wide](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4dface4fdc350ad704f19a8f8704cf3264c55682-2880x1620.png&w=3840&q=75)
+![Invoke_banner_wide](https://i.imgur.com/BwuaUta.png)
 
 # Invoke
 
