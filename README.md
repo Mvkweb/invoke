@@ -2,7 +2,7 @@
 
 # Invoke
 
-This project serves as a robust and efficient backend application, built to provide high-performance API endpoints. Its core purpose is to power intelligent applications by handling message routing and integrating with external services.
+This project serves as a robust and efficient backend application, built to provide high-performance API endpoints. It acts as a **translation layer and bridge**, enabling clients that use the Anthropic API format ( Claude Code) to seamlessly interact with other powerful AI models like Google Gemini and OpenRouter. Its core purpose is to power intelligent applications by handling message routing, translating API requests and responses, and integrating with various external AI services.
 
 ## ✨ Supported AI Providers
 Invoke is designed with flexibility in mind, supporting integration with a variety of leading AI model APIs:
@@ -14,7 +14,11 @@ Invoke is designed with flexibility in mind, supporting integration with a varie
 ## ❔ General Information
 
 ### Why Optimized?
-This application leverages [Bun](https://bun.sh/) as its core runtime. Bun is an all-in-one JavaScript runtime, bundler, transpiler, and package manager designed for speed. It offers significantly faster startup times and execution compared to Node.js, making this application highly optimized for performance.
+This application is engineered for high performance and efficiency, leveraging a combination of cutting-edge technologies and thoughtful architectural design:
+
+*   **Bun Runtime ⚡:** At its core, Invoke utilizes [Bun](https://bun.sh/), an incredibly fast JavaScript runtime built with the Zig programming language. Bun's native-code execution, optimized module resolution, and built-in bundler contribute to significantly faster startup times and overall execution speed compared to traditional Node.js environments. This foundational choice ensures that the application's operations are processed with minimal overhead.
+
+*   **Efficient Application Code 🚀:** Beyond the runtime, the application's codebase is designed for speed and responsiveness. It employs efficient data handling, asynchronous operations, and streamlined logic to minimize latency. By focusing on lean dependencies and optimized API routing, Invoke ensures that requests are processed quickly, providing a highly responsive experience for integrating with various AI models.
 
 ### Compiled Executable
 Invoke is compiled into a single, self-contained executable. This means you don't need to install Bun or any dependencies on the target machine to run the application, simplifying deployment and distribution.
@@ -47,6 +51,6 @@ If you are on a Windows machine, it is recommended to use [Windows Subsystem for
     ```bash
     bun run build:linux
     ```
-This will generate `myapp-linux` in your project root. [^1]
+    This will generate `myapp-linux` in your project root. [^1]
 
 [^1]: The compiled executable is self-contained and does not require Bun to be installed on the target system to run.
